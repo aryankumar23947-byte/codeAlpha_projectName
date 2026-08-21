@@ -1,158 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>Basic cslculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-container">
-        <!--sidebar-->
-        <div class="sidebar">
-            <!--profile-->
-            <div class="profile">
-                <img src="my.jpeg" alt="Aryan Kumar Profile">
-                <h2>Aryan Kumar</h2>
-                <p>Frontend Developer</p>
-            </div>
-            
-            <!--contact-->
-            <div class="contact">
-                <div class="email">
-                    <h3 class="em">Email</h3>
-                    <a href="mailto:aryankumar23947@gmail.com" class="value">aryankumar23947@gmail.com</a>
-                </div> <!-- Added missing closing div for email -->
-
-                <div class="phone">
-                    <h3 class="em">Phone</h3>
-                    <a href="tel:9608883238" class="value">9608883238</a>
-                </div>
-
-                <div class="location">
-                    <h3 class="em">Location</h3>
-                    <p class="put">Aurangabad, Bihar</p>
-                </div>
-            </div>
-            
-            <!--social-->
-            <div class="social">
-                <!-- Fixed the missing '>' on the opening anchor tags -->
-                <a href="https://x.com/home">
-                    <img src="https://about.x.com/content/dam/about-twitter/x/large-x-logo.png.twimg.1920.png" alt="X Logo">
-                </a>
-                <a href="https://github.com/aryankumar23947-byte">
-                    <img src="https://www.svgrepo.com/show/394174/github.svg" alt="GitHub Logo">
-                </a>
-                <a href="https://www.linkedin.com/in/aryan-kumar-28a830401?utm_source=share_via&utm_content=profile&utm_medium=member_android">
-                    <img src="https://www.svgrepo.com/show/922/linkedin.svg" alt="LinkedIn Logo">
-                </a>
-            </div>
-        </div> 
-
-        <!--main-content-->
-        <div class="main-content">
-            <!--navigation bar-->
-            <div id="navigation">
-                <nav>
-                    <!-- Linked targets to the section IDs below -->
-                    <a href="#about" class="active">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#education">Education</a>
-                    <a href="#project">Project</a>
-                </nav>
-            </div>
-            
-            <!-- Added IDs to sections so navigation links function -->
-            <!--about me-->
-            <div  id="about" >
-                <h2 class="heading">About me</h2>
-                <div class="line"></div>
-                <p class="content"> I am a creative and passionate Frontend Developer with a keen eye for detail and a love for building  beautiful ,functional and user-friendly web experiences.My journey in web development is driven by a desire to turn complex problem into simple ,elegant solutions.I specialise in modern web technologies and am always eager to learn and adapt to the ever-evolving digital landscape. </p>
-                <!-- Your content here -->
-            </div>
-            <!--skills-->
-            <div  id="skills">
-                <h2 class="heading">Skills</h2>
-                <div class="line"></div>
-                <div class="grid-container">
-                    <div class="item">
-                        <img src="https://simpleicons.org/icons/html5.svg" alt="">
-                        <h3>HTML5</h3>
-                    </div>
-                    <div class="item">
-                        <img src="https://simpleicons.org/icons/css.svg" alt="">
-                        <h3>CSS3</h3>
-                    </div>
-                    <div class="item">
-                        <img src="https://simpleicons.org/icons/javascript.svg" alt="">
-                        <h3>Javascript</h3>
-                    </div>
-                    <div class="item">
-                        <img src="https://www.svgrepo.com/show/512738/python-127.svg" alt="">
-                        <h3>python</h3>
-                    </div>
-                    <div class="item">
-                        <img src="https://simpleicons.org/icons/git.svg" alt="">
-                        <h3>Git & Github</h3>
-                    </div>
-                    <div class="item">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/960px-C_Programming_Language.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20201031132917" alt="">
-                        <h3>C Programing</h3>
-                    </div>
-                </div>
-             </div>
-            <!--education-->
-            <div  id="education">
-                <h2 class="heading">Education</h2>
-                <div class="line"></div>
-                <div class="edtech">
-                <div class="edfirst">
-                    <div class="year">2025-2029</div>
-                    <h3 class="degree">Bachelor of technology</h3>
-                    <p class="collage">B Tech in computer science Engineering 
-                        Roorkee Insitute Of Technology(uttrakhand)
-                    </p>
-                    <div class="goal"></div>
-                    
-                </div>
-                  <div class="edsecond">
-                    <div class="year">2022-2024</div>
-                    <h3 class="degree">senior secondary(10+2)</h3>
-                    <p class="collage">Ashoka High School(bihar)</p>
-                    <div class="goal"></div>
-                  </div>
-                  <div class="liner"></div>
-                </div>
-                </div>
-            <!--project-->
- <div id="project">
-                <h2 class="heading">project</h2>
-                <div class="line"></div>
-
-                <div class="project-container">
-                    <div class="project">
-                        <img src="2.avif" alt="">
-                        <div class="card">
-                            <h3>portfolio website</h3>
-                            <p>It acts as an online resume that helps you find jobs, clients, or partners by letting your projects speak for themselves.</p>
-                            <span>HTML</span><span>CSS</span>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <img src="3.jpg" alt="">
-                        <div class="card">
-                            <h3>calulator</h3>
-                            <p>Building a web calculator is a classic beginner project that uses HTML for structure, CSS for design, and JavaScript for logic.</p>
-                            <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-             </div>
-
-        </div> 
+    <div class="calculator">
+        <input type="text" id="result" readonly>
+        <div class="btns">
+            <button class="clear">C</button>
+            <button class="operator">/</button>
+            <button class="operator">*</button>
+            <button class="operator">-</button>
+            <button class="number">9</button>
+            <button class="number">8</button>
+            <button class="number">7</button>
+            <button class="operator">+</button>
+            <button class="number">6</button>
+            <button class="number">5</button>
+            <button class="number">4</button>
+            <button class="equal">=</button>
+            <button class="number">3</button>
+            <button class="number">2</button>
+            <button class="number">1</button>
+            <button class="number">0</button>
+            <button class="decimal">.</button>
+        </div>
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
